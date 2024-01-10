@@ -1,0 +1,39 @@
+:root {
+    --color-dark-blue: #172339;
+    --color-grey: #49566D;
+    --color-cream: #F3EDE7;
+    --color-cream-white: #FAF8F6;
+    --color-linear-gradient: linear-gradient(135deg, #A060FF 0%, #CB30E3 50%, #FFA84E 100%);
+
+    --ff-body: 'Epilogue', sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+$bp-tablet: 48em; // 768px
+$bp-desktop: 90em; // 1440px
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+
+    // center content on page
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
