@@ -11,37 +11,89 @@
         <link rel="stylesheet" href="./css/style.css">
 
         <title>Frontend Mentor | Suite landing page</title>
+
+        <script src="https://kit.fontawesome.com/f6d47cd3e1.js" crossorigin="anonymous"></script>
     </head>
+    
     <body>
+        <div class="container">
+            <header class="header">
+                <img src="./assets/logo.svg" alt="Suite logo" class="logo">
+                <a href="#" class="btn btn--secondary">Request Beta Access</a>
+            </header>
 
-        Request Beta Access
+            <main class="main">
+                <section class="hero">
+                    <div class="hero__description">
+                        <h1 class="heading heading--xl">A <span class="heading--bold">super solution</span> for your <span class="heading--bold">business.</span></h1>
 
-        A super solution for your business.
+                        <p>Our marketing and sales automations help you scale your outreach to 
+                            get more leads for your company.</p> 
 
-        Our marketing and sales automations help you scale your outreach to 
-        get more leads for your company. 
+                        <a href="#" class="btn btn--primary">Request Beta Access</a>
+                    </div>
 
-        Request Beta Access
+                    <img src="./assets/image-hero-landscape.webp" alt="" class="hero__img">
+                    
+                    <div class="hero__stats">
+                        <div class="stat-card">
+                            <p class="stat-card__number">2K+</p>
+                            <h3 class="stat-card__title">Companies</h3>
+                        </div>
 
-        2K+
-        Companies
+                        <div class="stat-card">
+                            <p class="stat-card__number">8</p>
+                            <h3 class="stat-card__title">Languages</h3>
+                        </div>
 
-        8
-        Languages
+                        <div class="stat-card">
+                            <p class="stat-card__number">1.2M</p>
+                            <h3 class="stat-card__title">Leads</h3>
+                        </div>
+                    </div>
+                </section>
 
-        1.2M
-        Leads
+                <section class="review">
+                    <img src="./assets/image-jeremy-small.webp" alt="" class="review__image">
 
-        It just works.
+                    <div class="review__content">
+                        <h2 class="heading heading--l review__title">It just <span class="heading--bold">works.</span></h2>
 
-        “I really like how it is an all-in-one solution that handle many of 
-        the tasks that you would normally need separate tools to do the same 
-        job. This thing is a miracle worker.”
+                        <p class="review__text">“I really like how it is an all-in-one solution that handle many of 
+                            the tasks that you would normally need separate tools to do the same 
+                            job. This thing is a miracle worker.”</p>
+                        
+                        <div class="review__footer">
+                            <p class="heading heading--uppercase heading--bold heading--m review__author-name">Jeremy Robinson</p>
+                            <p class="heading heading--uppercase heading--s review__author-title">CMO, Fylo</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
 
-        Jeremy Robinson
-        CMO, Fylo
-
-        Copyright - Suite
-
+            <footer class="footer">
+                <img src="./assets/logo.svg" alt="Suite logo" class="logo">
+                <p class="p-footer">Copyright - Suite</p>
+                <nav class="footer__nav-socials" aria-label="Social media links">
+                    <ul class="socials">
+                        <li>
+                            <a href="https://facebook.com" class="socials__link" aria-label="Facebook profile.">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" class="socials__link" aria-label="Twitter profile.">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com" class="socials__link" aria-label="Instagram profile.">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
     </body>
 </html>

@@ -1,0 +1,47 @@
+.review {
+    padding: 0rem 1.6rem 6.4rem;
+    background-color: var(--color-dark-blue);
+    color: var(--color-cream);
+    text-align: center;
+    border-radius: 1.5rem;
+
+    display: grid;
+    grid-template-rows: 221px auto;
+    justify-items: center;
+    align-items: end;
+    row-gap: 4rem;
+
+    position: absolute;
+    bottom: 28.6rem;
+
+    &__content {
+        display: grid;
+        row-gap: 4rem;
+
+        &::before {
+            content: "";
+            width: 4.9rem;
+            height: 4rem;
+            
+            background: url("../assets/pattern-curved-line-2.svg");
+            background-size: contain;
+            margin: 0 auto -0.3rem;
+        }
+    }
+    
+    &__title {
+        color: var(--color-cream-white);
+    }
+
+    &__text {
+        @extend %quote;
+    }
+
+    &__author-name {
+        color: var(--color-cream-white);
+    }
+
+    &__author-title {
+        color: var(--color-cream);
+    }
+}

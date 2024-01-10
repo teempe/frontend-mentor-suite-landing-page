@@ -1,0 +1,10 @@
+.footer {
+    @extend %footer-font;
+
+    padding: 19rem 0rem 7.2rem;
+    background-color: var(--color-cream);
+
+    display: grid;
+    justify-items: center;
+    row-gap: 3.3rem;
+}

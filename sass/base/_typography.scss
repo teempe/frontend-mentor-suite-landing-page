@@ -1,0 +1,81 @@
+body {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-regular);
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.009rem;
+    color: var(--color-grey);
+}
+
+%quote {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+
+%footer-font {
+    font-size: 1.5rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.008rem;
+}
+
+%stat-number-font {
+    font-size: 4.8rem;
+    font-weight: var(--fw-bold);
+    line-height: 5.6rem;
+    letter-spacing: normal;
+}
+
+%btn-font {
+    font-weight: var(--fw-bold);
+
+    &--primary {
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        letter-spacing: -0.018rem;
+    }
+
+    &--secondary {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        letter-spacing: -0.014rem;
+    }
+}
+
+.heading {
+    font-weight: var(--fw-regular);
+    font-style: normal;
+    color: var(--color-dark-blue);
+
+    &--bold {
+        font-weight: var(--fw-bold);
+    }
+
+    &--uppercase {
+        text-transform: uppercase;
+    }
+
+    &--xl {
+        font-size: 3.8rem;
+        line-height: 4.4rem;
+        letter-spacing: -0.053rem; 
+    }
+
+    &--l {
+        font-size: 4rem;
+        line-height: 4.8rem;
+        letter-spacing: -0.042rem;
+    }
+
+    &--m {
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        letter-spacing: -0.018rem;
+    }
+
+    &--s {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        letter-spacing: 0.25rem; 
+    }
+}
