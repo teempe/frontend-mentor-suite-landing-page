@@ -39,6 +39,12 @@ body {
         font-size: 1.4rem;
         line-height: 2.4rem;
         letter-spacing: -0.014rem;
+
+        @media only screen and (min-width: $bp-tablet) {
+            font-size: 1.6rem;
+            line-height: 3.2rem;
+            letter-spacing: -0.016rem;
+        }
     }
 }
 
@@ -58,7 +64,13 @@ body {
     &--xl {
         font-size: 3.8rem;
         line-height: 4.4rem;
-        letter-spacing: -0.053rem; 
+        letter-spacing: -0.053rem;
+
+        @media only screen and (min-width: $bp-tablet) {
+            font-size: 5.6rem;
+            line-height: 6.4rem;
+            letter-spacing: -0.078rem;
+        }
     }
 
     &--l {

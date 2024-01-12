@@ -44,4 +44,10 @@
     &__author-title {
         color: var(--color-cream);
     }
+
+    @media only screen and (min-width: $bp-tablet) {
+        padding: 0rem 5.8rem 6.4rem;
+        bottom: 17.6rem;
+        margin: 0 4rem;
+    }
 }

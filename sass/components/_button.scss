@@ -33,5 +33,10 @@
             color: var(--color-cream-white);
             background: var(--color-dark-blue);
         }
+
+        @media only screen and (min-width: $bp-tablet) {
+            width: 21.9rem;
+            height: 5.6rem;
+        }
     }
 }
