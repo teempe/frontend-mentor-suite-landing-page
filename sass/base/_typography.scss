@@ -6,11 +6,22 @@ body {
     line-height: 2.8rem;
     letter-spacing: 0.009rem;
     color: var(--color-grey);
+
+    @media only screen and (min-width: $bp-desktop) {
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        letter-spacing: 0.01rem;
+    }
 }
 
 %quote {
     font-size: 1.8rem;
     line-height: 3.2rem;
+
+    @media only screen and (min-width: $bp-desktop) {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
 }
 
 %footer-font {
@@ -24,6 +35,10 @@ body {
     font-weight: var(--fw-bold);
     line-height: 5.6rem;
     letter-spacing: normal;
+
+    @media only screen and (min-width: $bp-desktop) {
+        letter-spacing: -0.05rem;
+    }
 }
 
 %btn-font {
@@ -71,12 +86,24 @@ body {
             line-height: 6.4rem;
             letter-spacing: -0.078rem;
         }
+
+        @media only screen and (min-width: $bp-desktop) {
+            font-size: 7.2rem;
+            line-height: 7.8rem;
+            letter-spacing: -0.01rem;
+        }
     }
 
     &--l {
         font-size: 4rem;
         line-height: 4.8rem;
         letter-spacing: -0.042rem;
+
+        @media only screen and (min-width: $bp-desktop) {
+            font-size: 4.8rem;
+            line-height: 5.6rem;
+            letter-spacing: -0.05rem;
+        }
     }
 
     &--m {

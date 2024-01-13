@@ -15,4 +15,8 @@
         flex-direction: row;
         justify-content: space-between;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+        padding: 35.9rem 16.6rem 7.2rem;
+    }
 }
